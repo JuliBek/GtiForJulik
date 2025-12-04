@@ -1,0 +1,25 @@
+.header{
+display: flex;
+flex-direction: row;
+padding: 16px;
+border-radius: 20px;
+justify-content: space-between;
+font-size: 25px
+}
+
+.header_navigation_buttons {
+display: flex;
+gap: 15px;
+}
+
+.header_navigation-cart-and-profile{
+display: flex;
+gap: 10px;
+}
+
+.header_logo_text-Flower{
+    color: orange;
+}
+.header_navigation_buttons-Home{
+    color: orange
+}
