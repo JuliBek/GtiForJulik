@@ -23,3 +23,34 @@ gap: 10px;
 .header_navigation_buttons-Home{
     color: orange
 }
+.middle{
+    background-color: rgb(226, 226, 226);
+display: flex;
+flex-direction: row;
+align-items: stretch;
+justify-content: space-around
+}
+.middle_text{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: stretch;
+}
+.middle_text_main{
+font-size: 60px;
+}
+.middle_text_info{
+font-size: 20px;
+opacity: 0.5
+}
+
+.middle_pics{
+display: grid;
+grid-template-columns: repeat(3, auto);
+row-gap: 20px;
+column-gap: 20px;
+}
+
+.pic {
+    width: 192px;
+}
